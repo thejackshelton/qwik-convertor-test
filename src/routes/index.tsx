@@ -3,14 +3,11 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </div>
-    </>
+    <div>
+      <a href="/tailwind">Tailwind</a>
+      <br />
+      <a href="/vanilla">Vanilla</a>
+    </div>
   );
 });
 
